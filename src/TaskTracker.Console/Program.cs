@@ -26,7 +26,7 @@ namespace TaskTracker
                     case "1":
                         Console.Write("Enter task name: ");
                         var name = Console.ReadLine();
-                        if (taskService.AddTask(name))
+                        if (taskService.AddTask(name!))
                             Console.WriteLine("Task added.");
                         else
                             Console.WriteLine("Invalid or duplicate task.");
