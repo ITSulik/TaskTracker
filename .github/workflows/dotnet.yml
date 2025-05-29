@@ -29,10 +29,10 @@ jobs:
               run: dotnet restore
 
             - name: Build
-              run: dotnet build --project src/TaskTracker.Console --configuration Release --no-restore
+              run: dotnet build --configuration Release --no-restore
 
             - name: Publish
-              run: dotnet publish --project src/TaskTracker.Console --configuration Release --output ./publish
+              run: dotnet publish --configuration Release --output ./publish
 
             - name: Upload build artifacts
               uses: actions/upload-artifact@v4
