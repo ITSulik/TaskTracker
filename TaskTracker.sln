@@ -2,8 +2,7 @@
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.2.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskTracker", "TaskTracker.csproj", "{FB715EF5-E628-2B04-47A8-ACCBAF46A1FD}"
-EndProject
+
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CD434E37-2BDB-4805-A9C6-746129AF4C08}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskTracker.Console", "src\TaskTracker.Console\TaskTracker.Console.csproj", "{2D4FE548-F4C3-4479-BF54-EE435F9DDF22}"
